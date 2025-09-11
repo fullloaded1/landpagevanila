@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Font smoothing for crisper text rendering */
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Typography */
+.font-display {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-body {
+  font-family: 'Source Sans 3', 'Noto Naskh Arabic', sans-serif;
+}
+
+/* Typography Hierarchy */
+.hero-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+}
+
+.section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  line-height: 1.25;
+}
+
+.section-subtitle {
+  font-family: 'Source Sans 3', 'Noto Naskh Arabic', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.7;
+}
+
+.body-text {
+  font-family: 'Source Sans 3', 'Noto Naskh Arabic', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 1.7;
+}
+
+.button-text {
+  font-family: 'Source Sans 3', 'Noto Naskh Arabic', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.nav-text {
+  font-family: 'Source Sans 3', 'Noto Naskh Arabic', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Optional helpers for readable line length and lead text */
+.measure { max-width: 65ch; }
+.measure-wide { max-width: 80ch; }
+.lead { font-size: 1.125rem; line-height: 1.75; }
